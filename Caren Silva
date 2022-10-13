@@ -1,0 +1,73 @@
+<div class="container">
+<html>
+<body>
+
+<h1>HTML na prática</h1>
+<hr>
+  <h2>Índice</h2>
+ <p>✬
+ <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">O que é HTML?</a> </p>
+   <P>✬
+     <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">Elementos HTML</a> </p>
+ <P>✬
+<a href="https://www.hostmidia.com.br/blog/html/">Como surgio o HTML</a> </p>  
+  <P>✬   
+    <a href="https://www.homehost.com.br/blog/tutoriais/tags-html/">Principais tags</a>   
+     <h2>O que é HTML?</h2> 
+<p>HTML significa HiperText Markup Language, e traduzindo para o Portugûes: Linguagem de Marcação de Hipertexto.  O HTML é o que compõe a internet pois ele permite inserir conteúdo e estabelecer a estrutura básica de um website. Ou seja, o HTML serve para organizar as informações de uma página na web. Sem ele, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.
+
+Os hipertextos são conjuntos de elementos conectados. Podem ser palavras, imagens, vídeos, documentos, entre outros. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações. </p>
+ <h2>Elementos HTML</h2>  
+<p> Alguns dos principais elementos do HTML são:
+  Parágrafo, Cabeçalho, Imagem,Âncora,Lista ordenada,Lista não ordenada e Comentário. Existem vários outros elementos mas os citados aqui são os mais usuais. </p>
+<h2>Como surgiu o HTML</h2> 
+<p>O HTML foi criado em 1991, por Tim Berners-Lee, no CERN (European Council for Nuclear Research) na suíça. Inicialmente o HTML foi projetado para interligar instituições de pesquisa próximas, e compartilhar documentos com facilidade. Em 1992, foi liberada a biblioteca de desenvolvimento WWW ( World Wide Web), uma rede de alcance mundial, que junto com o HTML proporcionou o uso em escala mundial da WEB.</p>
+<h2>Principais tags</h2>
+<p>Parágrafo (< p >)</p>
+A tag < p > deve ser aberta e fechada para definir um parágrafo.
+  <p>Cabeçalho</p>
+(< h1 >, < h2 >, < h3 >, < h4 >, < h5 >, < h6 >)
+  Sendo h1 a de tamanho maior e a h6 de tamanho menor, diminuindo consecutivamente.
+  <p>Imagem (< img >)</p>
+A tag de imagem não precisa ser fechada pois seu conteúdo é definido na própria tag com o atributo “src”.
+  <p>Âncora (< a >)</p>
+A tag de âncora, como o nome diz, ancora um link para outra página. Usamos o atributo “href” para determinar o destino desse link.
+    <p>Lista ordenada (< ol >)</p>
+Ordered list, ou traduzindo: lista ordenada, é uma lista com elementos numerados. Cada elemento deve ser marcado com a tag < li > (list item).
+  <p>Lista não ordenada (< ul >)</p>
+A tag unordered list, ou traduzindo: lista não ordenada, é uma lista que mostra os elementos como bullet points.
+  <p>Comentário (< !– – >)</p>
+Usamos esta tag para escrever algum comentário que melhore no nosso entendimento do código. O que estiver escrito entre os marcadores < !– e – > não será mostrado ao usuário.
+ css:
+ .container {
+  margin: 64px;
+  background: #89CFF0;
+  color: #191970;
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  padding: 64px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+body {
+
+  font-family: Roboto, sans-serif;
+
+ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(9,9,9,0) 50%,rgba(19,19,19,1) 100%), url(https://wallpaper.dog/large/5557995.jpg) no-repeat center right;
+  background-size: cover;
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+  color: white;
+
+}
+
+
+
+
+
+
+
